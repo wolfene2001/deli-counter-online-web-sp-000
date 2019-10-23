@@ -22,3 +22,4 @@ def now_serving(katz_deli)
   else
 return "There is nobody waiting to be served!"
 end
+end
