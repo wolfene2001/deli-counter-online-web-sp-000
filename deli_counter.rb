@@ -5,7 +5,7 @@ def line(katz_deli)
   puts "The line is currently empty."
 elsif katz_deli.length > 0
   katz_deli.each_with_index do
-  katz_deli <<"The line is currently: katz_deli.inspect"
+  katz_deli <<"The line is currently: #{katz_deli.inspect}"
 
   end
 end
